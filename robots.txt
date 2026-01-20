@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Mencegah crawling pada folder sistem atau API (jika ada di masa depan)
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+
+# Sitemap Location (Sangat Penting untuk SEO)
+Sitemap: https://jasaraftingbatu.vercel.app/sitemap.xml
